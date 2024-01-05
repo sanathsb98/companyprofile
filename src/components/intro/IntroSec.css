@@ -2,13 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: #F8F8F8; */
+    /* background: #959595; */
    
    
 }
 .intro-contents{
  
     display: flex;
+  
     padding: 0px 60px 0px 60px;
     
 }
@@ -202,6 +203,7 @@ font-size: 14px;
     }
     .intro-title{
         text-align: center;
+       
     }
     .intro-description{
         text-align: center;
@@ -226,7 +228,7 @@ font-size: 14px;
     }
    
 }
-@media screen and (max-width : 345px) and (min-width : 0px) {
+@media screen and (max-width : 385px) and (min-width : 0px) {
   .intro-updates-pill{
     font-size: 12px;
   }
@@ -235,10 +237,34 @@ font-size: 14px;
   }
   .intro-title{
     font-size: 42px;
-    line-height: 64px;
+    line-height: 52px;
   }
   .intro-contents-right{
     padding: 2px;
  }
  
 }
+@media screen and (min-width : 1700px) {
+    .intro-contents{
+ 
+      max-width: 1200px;
+        
+    }
+  }
+  @media screen and (max-width : 975px) {
+    .home-line{
+ 
+     display: none;
+        
+    }
+  }
+  @media screen and (max-width : 500px) {
+    .home-scribble{
+ 
+     display: none;
+        
+    }
+  }
+ 
+  
+ 

@@ -1,0 +1,67 @@
+.why-us-section{
+    /* background-color: rgb(224, 206, 182); */
+    padding: 32px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.why-us-heading{
+    color: #0F1728;
+text-align: center;
+font-family: Poppins;
+font-size: 46px;
+font-weight: 500;
+}
+.why-us-title{
+    color: #0F1728;
+
+font-family: Be Vietnam Pro;
+font-size: 24px;
+
+font-weight: 600;
+line-height: 28.8px; /* 120% */
+
+}
+.why-us-sectioncontent{
+    max-width: 1700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.why-us-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px;
+    width: 70%;
+}
+.why-us-box{
+    display: flex;
+  
+    /* background-color: #5b698d; */
+    width: 100%;
+    max-width: 500px;
+
+    padding: 20px;
+   gap: 6px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+@media screen and (max-width : 800px) and (min-width :0px) {
+    .why-us-boxes{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .why-us-section{
+       
+        padding: 32px 0px;
+       
+    }
+}
