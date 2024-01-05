@@ -1,6 +1,9 @@
 .digital-marketing-space{
     /* background-color: rgb(177, 177, 177); */
     padding: 120px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .digital-marketing-content{
     display: flex;
@@ -20,6 +23,7 @@ font-family: Poppins;
 font-size: 56px;
 text-align: center;
 font-weight: 600;
+width: 70%;
 
 }
 .digibox{
@@ -77,6 +81,8 @@ font-weight: 400;
     display: flex;
     flex-direction: column;
     gap: 32px;
+    justify-content: center;
+    align-items: center;
 }
 .design-title-des{
     gap: 8px;
