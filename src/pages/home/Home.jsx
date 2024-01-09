@@ -4,6 +4,7 @@ import IntroSec from '../../components/intro/IntroSec';
 import DigitalMarketing from '../../components/digitalMarketing/DigitalMarketing';
 import InfideckOffers from '../../components/infideckOffers/InfideckOffers';
 import WhyUs from '../../components/whyus/WhyUs';
+import Metrics from '../../components/mertics/Metrics';
 
 
 const Home = () => {
@@ -12,7 +13,8 @@ const Home = () => {
       <IntroSec />
       <DigitalMarketing />
       <InfideckOffers />
-      <WhyUs/>
+      <WhyUs />
+      <Metrics />
     </div>
   )
 }

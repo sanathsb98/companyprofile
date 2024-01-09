@@ -1,57 +1,58 @@
-.intro-section{
+.intro-section {
     display: flex;
     justify-content: center;
     align-items: center;
     /* background: #959595; */
-   
-   
 }
-.intro-contents{
- 
+
+.intro-contents {
     display: flex;
-  
     padding: 0px 60px 0px 60px;
-    
 }
-.intro-updates{
+
+.intro-updates {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8px;
     border-radius: 40px;
-background: #FFE4D6;
-padding: 6px;
+    background: #FFE4D6;
+    padding: 6px;
 }
-.intro-updates-text{
+
+.intro-updates-text {
     font-family: Be Vietnam Pro;
     font-weight: 600;
-  
     color: #000;
 }
-.intro-updates-pill{
+
+.intro-updates-pill {
     border-radius: 36px;
-background: #FF7732;
-color: white;
-padding: 6px;
+    background: #FF7732;
+    color: white;
+    padding: 6px;
 }
-.intro-updates-arrow{
+
+.intro-updates-arrow {
     line-height: 4px;
- 
 }
-.intro-title{
+
+.intro-title {
     color: #0F1728;
     font-size: 62px;
     font-family: 'Poppins', sans-serif;
-    line-height: 82px;
+    line-height: 72px;
     position: relative;
     font-weight: 600;
 }
-.home-line{
+
+.home-line {
     position: absolute;
     right: 0;
-  transform: translate(-60px,-50px);
+    transform: translate(-60px, -50px);
 }
-.intro-contents-left{
+
+.intro-contents-left {
     width: 50%;
     display: flex;
     gap: 16px;
@@ -59,7 +60,8 @@ padding: 6px;
     align-items: flex-start;
     /* background: #F8F8F8; */
 }
-.intro-contents-right{
+
+.intro-contents-right {
     width: 50%;
     /* background-color: rgb(255, 238, 212); */
     display: flex;
@@ -67,17 +69,21 @@ padding: 6px;
     align-items: center;
     position: relative;
 }
-.intro-description{
+
+.intro-description {
     color: #475466;
     font-size: 20px;
+    width: 80%;
 }
-.intro-rating{
+
+.intro-rating {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 6px;
 }
-.contact-form{
+
+.contact-form {
     padding: 40px;
     width: 65%;
     display: flex;
@@ -85,78 +91,86 @@ padding: 6px;
     justify-content: center;
     align-items: center;
     gap: 24px;
-
     border-radius: 24px;
-background: #FDFFFF;
-z-index: 1;
-box-shadow: 5px 25px 25px 0px rgba(0, 0, 0, 0.10);
-
-
-
+    background: #FDFFFF;
+    z-index: 1;
+    box-shadow: 5px 25px 25px 0px rgba(0, 0, 0, 0.10);
 }
-.contact-form-title{
+
+.contact-form-title {
     color: #0F1728;
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 26px;
+    font-weight: 600;
+}
 
-text-align: center;
-font-family: Be Vietnam Pro;
-font-size: 26px;
-font-weight: 600;
-}
-.contact-form-name,.contact-form-email{
+.contact-form-name,
+.contact-form-email {
     border-radius: 8px;
-background: #EBEBEB;
-border: 0px;
-width: 100%;
-height: 42.39px;
-padding: 16px;
-font-family: Be Vietnam Pro;
-font-size: 16px;
+    background: #EBEBEB;
+    border: 0px;
+    width: 100%;
+    height: 42.39px;
+    padding: 16px;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
 }
-.contact-form-button{
+
+.contact-form-button {
     border-radius: 8px;
-background: #FF7732;
-color: #fff;
-width: 100%;
-height: 42.39px;
-display: flex;
-justify-content: center;
-align-items: center;
-font-weight: 600;
+    background: #FF7732;
+    color: #fff;
+    width: 100%;
+    height: 42.39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
 }
-.contact-form-description{
-    text-align:center;
+
+.contact-form-description {
+    text-align: center;
     color: #475466;
     font-family: Be Vietnam Pro;
-font-size: 16px;
+    font-size: 16px;
 }
-.contact-form-agreement{
+
+.contact-form-agreement {
     color: #9CA3BD;
 
-font-family: Be Vietnam Pro;
-font-size: 14px;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
 }
-.home-scribble{
+
+.home-scribble {
     position: absolute;
 }
-.home-scribble-1{
-   
+
+.home-scribble-1 {
     left: 0;
     top: 0;
 }
-.home-scribble-2{
-   
+
+.home-scribble-2 {
     right: 0;
     bottom: 0;
+}
+
+input:focus {
+    outline: none;
 }
 
 /* media query */
 
 @media screen and (max-width : 1200px) and (min-width : 0px) {
-    .intro-contents{
+    .intro-contents {
         flex-direction: column;
-        padding: 0px ;
+        padding: 0px;
     }
-    .intro-contents-left{
+
+    .intro-contents-left {
         width: 100%;
         display: flex;
         gap: 16px;
@@ -164,7 +178,8 @@ font-size: 14px;
         align-items: flex-start;
         /* background: #F8F8F8; */
     }
-    .intro-contents-right{
+
+    .intro-contents-right {
         width: 100%;
         /* background-color: rgb(255, 238, 212); */
         display: flex;
@@ -173,21 +188,21 @@ font-size: 14px;
         position: relative;
         padding: 20px;
     }
-    .home-scribble-1{
-   
+
+    .home-scribble-1 {
         left: 10px;
         top: 40px;
     }
-    .home-scribble-2{
-       
+
+    .home-scribble-2 {
         right: 0;
         bottom: 0;
     }
 }
 
 @media screen and (max-width : 820px) and (min-width : 0px) {
-    
-    .intro-contents-left{
+
+    .intro-contents-left {
         width: 100%;
         display: flex;
         gap: 16px;
@@ -195,76 +210,89 @@ font-size: 14px;
         align-items: center;
         background: #F8F8F8;
     }
-    .intro-contents-right{
-       padding: 20px;
+
+    .intro-contents-right {
+        padding: 20px;
     }
-    .intro-rating{
-       flex-direction: column;
+
+    .intro-rating {
+        flex-direction: column;
     }
-    .intro-title{
+
+    .intro-title {
         text-align: center;
-       
+
     }
-    .intro-description{
+
+    .intro-description {
         text-align: center;
     }
-    .contact-form{
-      
+
+    .contact-form {
+
         width: 100%;
     }
 }
+
 @media screen and (max-width : 550px) and (min-width : 0px) {
-    
-    .intro-title{
+
+    .intro-title {
         font-size: 52px;
     }
-    .home-line{
+
+    .home-line {
         position: absolute;
         right: 0;
-      transform: translate(-20px,-70px);
+        transform: translate(-20px, -70px);
     }
-    .intro-updates-text{
+
+    .intro-updates-text {
         font-size: 14px;
     }
-   
+
+    .intro-description {
+
+        width: 100%;
+    }
+
 }
+
 @media screen and (max-width : 385px) and (min-width : 0px) {
-  .intro-updates-pill{
-    font-size: 12px;
-  }
-  .intro-updates-text{
-    font-size: 10px;
-  }
-  .intro-title{
-    font-size: 42px;
-    line-height: 52px;
-  }
-  .intro-contents-right{
-    padding: 2px;
- }
- 
+    .intro-updates-pill {
+        font-size: 12px;
+    }
+
+    .intro-updates-text {
+        font-size: 10px;
+    }
+
+    .intro-title {
+        font-size: 42px;
+        line-height: 52px;
+    }
+
+    .intro-contents-right {
+        padding: 2px;
+    }
+
 }
+
 @media screen and (min-width : 1700px) {
-    .intro-contents{
- 
-      max-width: 1200px;
-        
+    .intro-contents {
+        max-width: 1200px;
     }
-  }
-  @media screen and (max-width : 975px) {
-    .home-line{
- 
-     display: none;
-        
+}
+
+@media screen and (max-width : 975px) {
+    .home-line {
+        display: none;
     }
-  }
-  @media screen and (max-width : 500px) {
-    .home-scribble{
- 
-     display: none;
-        
+}
+
+@media screen and (max-width : 500px) {
+    .home-scribble {
+        display: none;
     }
-  }
- 
+}
   
  

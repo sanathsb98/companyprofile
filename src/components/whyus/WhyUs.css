@@ -24,6 +24,11 @@ font-weight: 600;
 line-height: 28.8px; /* 120% */
 
 }
+.why-us-description{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+}
 .why-us-sectioncontent{
     max-width: 1700px;
     display: flex;
@@ -37,16 +42,16 @@ line-height: 28.8px; /* 120% */
     flex-direction: row;
     justify-content: space-evenly;
     gap: 40px;
-    width: 70%;
+    width: 80%;
 }
 .why-us-box{
     display: flex;
   
     /* background-color: #5b698d; */
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
 
-    padding: 20px;
+    padding: 10px 40px;
    gap: 6px;
     justify-content: center;
     align-items: center;

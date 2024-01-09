@@ -1,0 +1,67 @@
+.footer {
+    background: #3B69B1;
+    height: 347.78px;
+    padding: 98px 70px;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    display: flex;
+}
+
+.footer-content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer-right {
+    color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.company-contact {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width : 700px) and (min-width : 0px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-left {
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+        color: #FFF;
+        font-family: Be Vietnam Pro;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+}

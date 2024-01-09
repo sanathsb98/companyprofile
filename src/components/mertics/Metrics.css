@@ -1,0 +1,115 @@
+.metrics-section {
+    /* background-color: rgb(170, 224, 224); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.metrics-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1700px;
+    gap: 8px;
+}
+
+.metrics-heading {
+    border-radius: 11px;
+    background: #FF7732;
+    color: rgb(255, 255, 255);
+    width: 82.82px;
+    height: 29.19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 40px;
+}
+
+.metrics-title {
+    color: #0F1728;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.metrics-count {
+    color: #FF7732;
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 80px;
+    /* 100% */
+    letter-spacing: -3px;
+}
+
+.metrics-des {
+    color: #000;
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    width: 100%;
+    font-weight: 500;
+
+}
+
+.metrics-statistics {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 100%;
+    /* background-color: #69758f; */
+}
+
+.metr-margin {
+    border-right: 1px solid rgb(134, 134, 134);
+    border-left: 1px solid rgb(134, 134, 134);
+}
+
+.metrics-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 600px;
+    padding: 20px 100px;
+    /* background-color: aliceblue; */
+}
+
+@media screen and (max-width : 850px) and (min-width : 0px) {
+    .metrics-statistics {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .metr-margin {
+        border-right: 0px solid rgb(134, 134, 134);
+        border-left: 0px solid rgb(134, 134, 134);
+    }
+
+    .metrics-title {
+        font-size: 30px;
+    }
+
+    .metrics-box {
+        padding: 20px 0px;
+        /* background-color: aliceblue; */
+    }
+}
+
+@media screen and (max-width : 1132px) and (min-width : 850px) {
+    .metrics-box {
+        padding: 10px 40px;
+        width: 100%;
+        max-width: 370px;
+        min-width: 0px;
+        /* background-color: aliceblue; */
+    }
+}

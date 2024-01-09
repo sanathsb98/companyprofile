@@ -16,35 +16,35 @@ const DigitalMarketing = () => {
 
         <div className='digital-boxes'>
           <div className='digital-design digibox'>
-            <img src={designimg} className='design-circle'/>
+            <img src={designimg} className='design-circle' />
             <div className='design-title-des'>
-            <div className='design-title'>Design</div>
-            <div className='design-description'>We are creatives at heart. We go beyond
-              conventional design, crafting designs
-              that seamlessly merge beauty with
-              functionality and business needs.</div>
+              <div className='design-title'>Design</div>
+              <div className='design-description'>We are creatives at heart. We go beyond
+                conventional design, crafting designs
+                that seamlessly merge beauty with
+                functionality and business needs.</div>
             </div>
           </div>
 
           <div className='digital-promote digibox'>
-          <img src={promoteimg} className='design-circle'/>
-          <div className='design-title-des'>
-          <div className='design-title'>Promote</div>
-            <div className='design-description'>We specialize in propelling your brand to 
-the forefront. Through targeted ads and 
-savvy social media campaigns, we 
-amplify your reach authentically.</div>
+            <img src={promoteimg} className='design-circle' />
+            <div className='design-title-des'>
+              <div className='design-title'>Promote</div>
+              <div className='design-description'>We specialize in propelling your brand to
+                the forefront. Through targeted ads and
+                savvy social media campaigns, we
+                amplify your reach authentically.</div>
             </div>
           </div>
 
           <div className='digital-evolve digibox'>
-          <img src={evolveimg} className='design-circle'/>
+            <img src={evolveimg} className='design-circle' />
             <div className='design-title-des'>
-            <div className='design-title'>Evolve</div>
-            <div className='design-description'>In the digital race, evolution is key. 
-Infideck helps your brand stay ahead by 
-embracing the latest trends and refining 
-strategies based on data.</div>
+              <div className='design-title'>Evolve</div>
+              <div className='design-description'>In the digital race, evolution is key.
+                Infideck helps your brand stay ahead by
+                embracing the latest trends and refining
+                strategies based on data.</div>
             </div>
           </div>
         </div>
