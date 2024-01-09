@@ -44,7 +44,7 @@ line-height: 28.8px; /* 120% */
     flex-direction: row;
     justify-content: space-evenly;
     gap: 70px;
-    width: 80%;
+    width: 90%;
 }
 .why-us-box{
     display: flex;
@@ -70,5 +70,9 @@ line-height: 28.8px; /* 120% */
        
         padding: 32px 0px;
        
+    }
+    .why-us-sectioncontent{
+        padding: 12px 0px;
+        /* background-color: antiquewhite; */
     }
 }

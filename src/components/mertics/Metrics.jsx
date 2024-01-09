@@ -16,7 +16,7 @@ const Metrics = () => {
                 <div className='metrics-count'>30+</div>
                 <div className='metrics-des'>Successful Campaigns</div>
             </div>
-            <div className='metrics-box'>
+            <div className='metrics-box metrics-final-box'>
                 <div className='metrics-count'>3+</div>
                 <div className='metrics-des'>Operating countries</div>
             </div>

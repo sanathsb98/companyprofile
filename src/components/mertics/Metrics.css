@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 60px;
+ 
 }
 
 .metrics-content {
@@ -13,6 +13,7 @@
     flex-direction: column;
     max-width: 1700px;
     gap: 8px;
+    padding: 60px;
 }
 
 .metrics-heading {
@@ -77,9 +78,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 600px;
-    padding: 20px 100px;
+
+    padding: 20px 100px 0px 0px;
     /* background-color: aliceblue; */
+}
+.metrics-final-box{
+    padding: 20px 0px 0px 100px;
+}
+.metr-margin{
+    padding: 20px 180px 0px 180px;
 }
 
 @media screen and (max-width : 850px) and (min-width : 0px) {
@@ -102,6 +109,10 @@
         padding: 20px 0px;
         /* background-color: aliceblue; */
     }
+    .metrics-content {
+        padding: 10px;
+    }
+    
 }
 
 @media screen and (max-width : 1132px) and (min-width : 850px) {
