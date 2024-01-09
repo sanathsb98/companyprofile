@@ -115,12 +115,9 @@
     
 }
 
-@media screen and (max-width : 1132px) and (min-width : 850px) {
-    .metrics-box {
-        padding: 10px 40px;
-        width: 100%;
-        max-width: 370px;
-        min-width: 0px;
-        /* background-color: aliceblue; */
+@media screen and (max-width : 1500px) and (min-width : 850px) {
+ 
+    .metr-margin{
+        padding: 20px 60px 0px 60px;
     }
 }
