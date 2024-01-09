@@ -24,7 +24,7 @@ const WhyUs = () => {
             <div className='why-us-box'>
             <img src={advancedtech} className='why-us-image'/>
                 <div className='why-us-title'>Advanced Tech</div>
-                <div className='why-us-description'>Embracing continuous innovation and adapting to stay ahead in a dynamic landscape.</div>
+                <div className='why-us-description'>Embracing continuous innovation and adapting to stay ahead in a dynamic landcsape</div>
             </div>
         </div>
         </div>

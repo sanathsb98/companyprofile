@@ -1,6 +1,6 @@
 .why-us-section{
     /* background-color: rgb(224, 206, 182); */
-    padding: 32px 0px;
+  
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -12,7 +12,7 @@
 text-align: center;
 font-family: Poppins;
 font-size: 46px;
-font-weight: 500;
+font-weight: 600;
 }
 .why-us-title{
     color: #0F1728;
@@ -35,13 +35,15 @@ line-height: 28.8px; /* 120% */
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
+    padding: 72px 0px;
+    /* background-color: antiquewhite; */
 }
 .why-us-boxes{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 40px;
+    gap: 70px;
     width: 80%;
 }
 .why-us-box{
@@ -51,9 +53,9 @@ line-height: 28.8px; /* 120% */
     width: 100%;
     max-width: 600px;
 
-    padding: 10px 40px;
+    padding: 10px 10px;
    gap: 6px;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     text-align: center;
