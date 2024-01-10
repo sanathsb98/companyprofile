@@ -7,7 +7,7 @@
 
 .intro-contents {
     display: flex;
-    padding: 0px 30px 0px 30px;
+    padding: 20px 50px 0px 50px;
 }
 
 .intro-updates {
@@ -65,7 +65,7 @@
     width: 50%;
     /* background-color: rgb(255, 238, 212); */
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     position: relative;
 }
@@ -85,7 +85,7 @@
 
 .contact-form {
     padding: 40px;
-    width: 65%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,7 +155,7 @@
 
 .home-scribble-2 {
     right: 0;
-    bottom: 0;
+    bottom: -50px;
 }
 
 input:focus {
