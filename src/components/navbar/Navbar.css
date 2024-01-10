@@ -9,6 +9,7 @@
     top: 0;
     width: 100%;
   z-index: 100;
+  /* background-color: #a5a5a5; */
 
 }
 .navbar-content{
@@ -16,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1400px;
    
 }
 .nav-middle{
