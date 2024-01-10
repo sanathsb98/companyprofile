@@ -67,7 +67,7 @@ const IntroSec = () => {
                             that stand out in the digital landscape.</div>
                         <input placeholder='Your name' className='contact-form-name' />
                         <input placeholder='Your email' className='contact-form-email' />
-                        <div className='contact-form-button'>Get a Free Quote</div>
+                        <motion.div whileHover={{ scale: 1.04 }} className='contact-form-button'>Get a Free Quote</motion.div>
                         <div className='contact-form-agreement'>By submitting, you agree with our <b><u>Terms of License</u></b></div>
                     </motion.div>
                     <img className='home-scribble-1 home-scribble' src={homescribble1} />

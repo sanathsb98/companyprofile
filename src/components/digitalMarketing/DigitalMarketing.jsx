@@ -42,7 +42,7 @@ const DigitalMarketing = () => {
         </motion.div>
 
         <div className='digital-boxes'>
-          <motion.div  variants={boxanimation1} initial="initial" animate={inView ? "enter" : ""} className='digital-design digibox'>
+          <motion.div whileHover={{scale : 1.04}}  variants={boxanimation1} initial="initial" animate={inView ? "enter" : ""} className='digital-design digibox'>
             <img src={designimg} className='design-circle' />
             <div className='design-title-des'>
               <div className='design-title'>Design</div>
@@ -53,7 +53,7 @@ const DigitalMarketing = () => {
             </div>
           </motion.div>
 
-          <motion.div variants={boxanimation2} initial="initial" animate={inView ? "enter" : ""} className='digital-promote digibox'>
+          <motion.div  whileHover={{scale : 1.04}} variants={boxanimation2} initial="initial" animate={inView ? "enter" : ""} className='digital-promote digibox'>
             <img src={promoteimg} className='design-circle' />
             <div className='design-title-des'>
               <div className='design-title'>Promote</div>
@@ -64,7 +64,7 @@ const DigitalMarketing = () => {
             </div>
           </motion.div>
 
-          <motion.div variants={boxanimation3} initial="initial" animate={inView ? "enter" : ""}  className='digital-evolve digibox'>
+          <motion.div  whileHover={{scale : 1.04}} variants={boxanimation3} initial="initial" animate={inView ? "enter" : ""}  className='digital-evolve digibox'>
             <img src={evolveimg} className='design-circle' />
             <div className='design-title-des'>
               <div className='design-title'>Evolve</div>
