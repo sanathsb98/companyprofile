@@ -13,7 +13,7 @@ const InfideckOffers = () => {
     }
     const boxanimation = {
         initial : {opacity : "0%"},
-        enter: i => ({opacity: "100%", transition: {duration: 22.95, ease: [0.33, 1, 0.68, 1],  delay: 0.075 * i}})
+        enter: i => ({opacity: "100%", transition: {duration: 12.95, ease: [0.33, 1, 0.68, 1],  delay: 0.075 * i}})
     }
 
     const { ref, inView, entry } = useInView({
