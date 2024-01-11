@@ -15,6 +15,10 @@ const Navbar = () => {
     setModal(!modal)
   }
 
+  const closeModale = () => {
+    setModal(false)
+  }
+
     const animation = {
         initial : {y : "-60%"},
         enter: i => ({y: "20%", transition: {duration: 1.95, ease: [0.33, 1, 0.68, 1],  delay: 0.075 * i}})
@@ -32,10 +36,10 @@ const Navbar = () => {
           <img src={logo} width='100%' height='70%'/>
         </div>
         <div className='nav-middle'>
-            <div className='nav-tab'>About</div>
-            <div className='nav-tab'>Work</div>
-            <div className='nav-tab'>Services</div>
-            <div className='nav-tab'>Plans</div>
+            <motion.div whileHover={{scale : 1.04}} className='nav-tab'>About</motion.div>
+            <motion.div whileHover={{scale : 1.04}} className='nav-tab'>Work</motion.div>
+            <motion.div whileHover={{scale : 1.04}} className='nav-tab'>Services</motion.div>
+            <motion.div whileHover={{scale : 1.04}} className='nav-tab'>Plans</motion.div>
         </div>
         <div className='nav-right'>
             <motion.div onClick={toggleModale} whileHover={{scale : 1.04}} className='nav-button'>Let's talk</motion.div>
@@ -44,7 +48,7 @@ const Navbar = () => {
        </motion.div>
      
     </div>
-    {modal ? (<ContactModale/>) : (<></>)}
+    {modal ? (<ContactModale closeModale={closeModale}/>) : (<></>)}
     </>
     
   )
