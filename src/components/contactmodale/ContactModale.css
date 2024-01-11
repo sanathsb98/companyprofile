@@ -1,0 +1,39 @@
+.contact-modale {
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    opacity: 1;
+    pointer-events: none;
+    z-index: 200;
+
+
+}
+.contact-form{
+  position: absolute;
+    width: 100%;
+   transform: translate(-14%,-8%);
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+textarea:focus{
+    outline: none;
+}
+.cancel-icon{
+    position: relative;
+    z-index: 10;
+    top: -25px;
+
+    right: -50%;
+}
+@media screen and (max-width : 1200px) and (min-width : 0px) {
+    .contact-form{
+        position: absolute;
+          width: 100%;
+         transform: translate(0%,-5%);
+      
+      }
+}
