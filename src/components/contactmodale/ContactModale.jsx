@@ -3,9 +3,9 @@ import '../contactmodale/ContactModale.css';
 
 const ContactModale = () => {
   return (
-      <div className='contact-modale'>
+      <div className='contact-modale contact-modale-m'>
           <div style={{position:'relative'}} className='intro-contents-right'>
-              <div className='contact-form'>
+              <div className='contact-form contact-form-m'>
               <svg className='cancel-icon' width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M6.75827 17.2426L12.0009 12M17.2435 6.75736L12.0009 12M12.0009 12L6.75827 6.75736M12.0009 12L17.2435 17.2426" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                   <div className='contact-form-title'>Grow your brand now</div>
                   <div className='contact-form-description'>Get a quote today for results-driven strategies

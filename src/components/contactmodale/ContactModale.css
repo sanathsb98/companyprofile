@@ -1,4 +1,4 @@
-.contact-modale {
+.contact-modale-m {
     background-color: rgba(0, 0, 0, .6);
     display: flex;
     justify-content: center;
@@ -12,7 +12,7 @@
 
 
 }
-.contact-form{
+.contact-form-m{
   position: absolute;
     width: 100%;
    transform: translate(-14%,-8%);
@@ -30,7 +30,7 @@ textarea:focus{
     right: -50%;
 }
 @media screen and (max-width : 1200px) and (min-width : 0px) {
-    .contact-form{
+    .contact-form-m{
         position: absolute;
           width: 100%;
          transform: translate(0%,-5%);
