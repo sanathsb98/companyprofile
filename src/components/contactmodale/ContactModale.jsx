@@ -13,7 +13,7 @@ const ContactModale = ({closeModale}) => {
                   <input placeholder='Your name' className='contact-form-name' />
                   <input placeholder='Your email' className='contact-form-email' />
                   <textarea style={{height:'70px'}} placeholder='Your message' className='contact-form-email' />
-                  <div className='contact-form-button'>Get a Free Quote</div>
+                  <div onClick={closeModale} className='contact-form-button'>Get a Free Quote</div>
                   <div className='contact-form-agreement'>By submitting, you agree with our <b><u>Terms of License</u></b></div>
               </div>
           </div>
