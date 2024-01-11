@@ -8,33 +8,36 @@
     position: fixed;
     opacity: 1;
     z-index: 300;
-    
-
-
 }
-.contact-form-m{
-  position: absolute;
+
+.contact-form-button {
+    font-family: Be Vietnam Pro;
+}
+
+.contact-form-m {
+    position: absolute;
     width: 100%;
-
-   transform: translate(-14%,-8%);
-   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transform: translate(-14%, -8%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
 }
-textarea:focus{
+
+textarea:focus {
     outline: none;
 }
-.cancel-icon{
+
+.cancel-icon {
     position: relative;
     z-index: 10;
     top: -25px;
-cursor: pointer;
+    cursor: pointer;
     right: -50%;
 }
+
 @media screen and (max-width : 1200px) and (min-width : 0px) {
-    .contact-form-m{
+    .contact-form-m {
         position: absolute;
-          width: 100%;
-         transform: translate(0%,-5%);
-      
-      }
+        width: 100%;
+        transform: translate(0%, -5%);
+    }
 }

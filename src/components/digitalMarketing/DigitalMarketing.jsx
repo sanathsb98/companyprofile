@@ -1,9 +1,9 @@
-import React,{useRef} from 'react';
+import React, { useRef } from 'react';
 import '../digitalMarketing/DigitalMarketing.css';
 import designimg from '/src/images/designimg.svg';
 import evolveimg from '/src/images/evolveimg.svg';
 import promoteimg from '/src/images/promoteimg.svg';
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
 const DigitalMarketing = () => {
@@ -34,16 +34,16 @@ const DigitalMarketing = () => {
 
   return (
     <div className='digital-marketing-space'>
-      <div  className='digital-marketing-content'>
+      <div className='digital-marketing-content'>
 
-        <motion.div ref={ref}  variants={animation} initial="initial" animate={inView ? "enter" : ""} className='digital-title-description'>
+        <motion.div ref={ref} variants={animation} initial="initial" animate={inView ? "enter" : ""} className='digital-title-description'>
           <div className='digital-title'>Good-bye to traditional Digital Marketing.</div>
           <div className='digital-description'>Join us on a journey beyond boundaries as we transform your vision into a limitless digital reality.</div>
         </motion.div>
 
         <div className='digital-boxes'>
-          <motion.div whileHover={{scale : 1.04}}  variants={boxanimation1} initial="initial" animate={inView ? "enter" : ""} className='digital-design digibox'>
-    <motion.div whileHover={{scale : 1.06}} ><img src={designimg} className='design-circle' /></motion.div>
+          <motion.div whileHover={{ scale: 1.04 }} variants={boxanimation1} initial="initial" animate={inView ? "enter" : ""} className='digital-design digibox'>
+            <motion.div whileHover={{ scale: 1.06 }} ><img src={designimg} className='design-circle' /></motion.div>
             <div className='design-title-des'>
               <div className='design-title'>Design</div>
               <div className='design-description'>We are creatives at heart. We go beyond
@@ -53,9 +53,9 @@ const DigitalMarketing = () => {
             </div>
           </motion.div>
 
-          <motion.div  whileHover={{scale : 1.04}} variants={boxanimation2} initial="initial" animate={inView ? "enter" : ""} className='digital-promote digibox'>
-            <motion.div whileHover={{scale : 1.06}}> <img src={promoteimg} className='design-circle' /></motion.div>
-           
+          <motion.div whileHover={{ scale: 1.04 }} variants={boxanimation2} initial="initial" animate={inView ? "enter" : ""} className='digital-promote digibox'>
+            <motion.div whileHover={{ scale: 1.06 }}> <img src={promoteimg} className='design-circle' /></motion.div>
+
             <div className='design-title-des'>
               <div className='design-title'>Promote</div>
               <div className='design-description'>We specialize in propelling your brand to
@@ -65,8 +65,8 @@ const DigitalMarketing = () => {
             </div>
           </motion.div>
 
-          <motion.div  whileHover={{scale : 1.04}} variants={boxanimation3} initial="initial" animate={inView ? "enter" : ""}  className='digital-evolve digibox'>
-            <motion.div  whileHover={{scale : 1.06}}><img src={evolveimg} className='design-circle' /></motion.div>
+          <motion.div whileHover={{ scale: 1.04 }} variants={boxanimation3} initial="initial" animate={inView ? "enter" : ""} className='digital-evolve digibox'>
+            <motion.div whileHover={{ scale: 1.06 }}><img src={evolveimg} className='design-circle' /></motion.div>
 
             <div className='design-title-des'>
               <div className='design-title'>Evolve</div>
@@ -77,7 +77,6 @@ const DigitalMarketing = () => {
             </div>
           </motion.div>
         </div>
-
       </div>
     </div>
   )

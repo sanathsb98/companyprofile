@@ -1,4 +1,4 @@
-import React,{useRef} from 'react';
+import React, { useRef } from 'react';
 import '../intro/IntroSec.css';
 import stars from '/src/images/stars.svg';
 import personone from '/src/images/personone.png';
@@ -8,34 +8,32 @@ import personfour from '/src/images/personfour.png';
 import homeline from '/src/images/homeline.png';
 import homescribble1 from '/src/images/homescribble1.png';
 import homescribble2 from '/src/images/homescribble2.png';
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-
-
 
 const IntroSec = () => {
 
     const interactiveDivRef = useRef(null);
 
     const animation = {
-        initial : {y : "30%"},
-        enter: i => ({y: "0", transition: {duration: 0.75, ease: [0.33, 1, 0.68, 1],  delay: 0.075 * i}})
+        initial: { y: "30%" },
+        enter: i => ({ y: "0", transition: { duration: 0.75, ease: [0.33, 1, 0.68, 1], delay: 0.075 * i } })
     }
     const formanimation = {
-        initial : {x : "30%"},
-        enter: i => ({x: "0", transition: {duration: 0.75, ease: [0.33, 1, 0.68, 1],  delay: 0.075 * i}})
+        initial: { x: "30%" },
+        enter: i => ({ x: "0", transition: { duration: 0.75, ease: [0.33, 1, 0.68, 1], delay: 0.075 * i } })
     }
 
     const { ref, inView, entry } = useInView({
         threshold: 0.75,
         triggerOnce: true
-      });
+    });
 
     return (
         <div className='intro-section'>
             <div className='intro-contents'>
                 <div ref={ref} className='intro-contents-left'>
-                    <motion.div variants={animation} initial="initial" animate={inView ? "enter" : ""}  className='intro-updates'>
+                    <motion.div variants={animation} initial="initial" animate={inView ? "enter" : ""} className='intro-updates'>
                         <div className='intro-updates-pill'>Updates</div>
                         <div className='intro-updates-text'>Exciting things are on this way</div>
                         <div className='intro-updates-arrow'><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
